@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dine or Dash</title>
+
+
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="assets/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="assets/js/materialize.min.js"></script>
+
+    <!-- Linking Styling Sheet -->
+    <link rel="stylesheet" href="assets/css/index-styles.css">
+
+    <!-- Firebase Reference -->
+    <script src="https://www.gstatic.com/firebasejs/4.13.0/firebase.js"></script>
+
+    <!-- Linking Favicon -->
+    <link rel="shortcut icon" type="image/png" href="assets/images/nutrition-favicon.png"/>
+
+</head>
+
+<body class="welcome">
+    <span id="splash-overlay" class="splash"></span>
+    <span id="welcome" class="z-depth-4"></span>
+
+    <header class="navbar-fixed">
+        <nav class="row #006064 cyan darken-4">
+            <div class="col s12">
+            </div>
+        </nav>
+    </header>
+
+    <main class="valign-wrapper">
+        <span class="container text-lighten-1 ">
+
+            <p class="flow-text">Welcome to</p>
+            <h1 class="title grey-text text-lighten-3">Dine or Dash!</h1>
+
+            <blockquote class="flow-text">Would you like to "dine" or "dash" today?</blockquote>
+
+            <div>
+                <!-- Button Trigger -->
+                <a class="btn button" href="dine.html" data-activates="dine">Dine!
+                </a>
+                <!-- Button Trigger -->
+                <a class="btn button" href="dash.html" data-activates="dash">Dash!
+                </a>
+            </div>
+
+        </span>
+    </main>
+
+    <footer class="page-footer #00838f cyan darken-3">
+        <div class="footer-copyright #006064 cyan darken-4">
+            <div class="container">
+                <time datetime="{{ site.time | date: '%Y' }}">&copy; 2018 </time>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Linking Javascript -->
+    <script src="assets/javascript/script.js"></script>
+    <script src="assets/javascript/ingredientSearch.js"></script>
+    <script src="assets/javascript/restaurantSearch.js"></script>
+
+    <script src="assets/js/materialize.min.js"></script>
+
+
+
+</body>
+
+</html>

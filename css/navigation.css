@@ -1,0 +1,155 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(Fonts/sforsoncasualheavy.ttf);
+}
+
+* {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('http://treehouse-code-samples.s3.amazonaws.com/CSS-DD/codepen/stage-13/fonts/icomoon.eot');
+    src: url('http://treehouse-code-samples.s3.amazonaws.com/CSS-DD/codepen/stage-13/fonts/icomoon.eot?#iefix') format('embedded-opentype'), url('http://treehouse-code-samples.s3.amazonaws.com/CSS-DD/codepen/stage-13/fonts/icomoon.woff') format('woff'), url('http://treehouse-code-samples.s3.amazonaws.com/CSS-DD/codepen/stage-13/fonts/icomoon.ttf') format('truetype'), url('http://treehouse-code-samples.s3.amazonaws.com/CSS-DD/codepen/stage-13/fonts/icomoon.svg#icomoon') format('svg');
+}
+
+body {
+    margin: 0;
+    background: white;
+    line-height: 1.5;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.main-head {
+    margin: auto;
+    width: 100%;
+    min-height: 90px;
+    padding: 1em 2em;
+    position:relative;
+    border-bottom: 5px solid orange;
+    border-radius: 0 0 5px 5px;
+    background: white;
+    z-index: 15;
+}
+
+.main-header:after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+.logo {
+    display: block;
+    text-decoration: none;
+    float: left;
+    margin-top: -18px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    font-size: 50px;
+    /*font-style:bold;
+        font-style:oblique;*/
+    font-family: cursive;
+    color: white;
+    font-style: italic;
+    background-color: orange;
+    border-radius: 5px;
+    padding: 5px;
+    border-left: 6px solid grey;
+    border-right: 6px solid grey;
+    border-radius: 18px;
+    z-index: -1;
+}
+
+
+/* Nav Demo Styles -------------------- */
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background: white;
+    z-index:2;
+}
+
+    ul li {
+        display: block;
+        position: relative;
+        float: right;
+        padding: 3px;
+        margin-right: 0px;
+        border-style: inset;
+        color: black;
+        background: orange;
+    }
+
+li ul {
+    display: none;
+    width: 100%;
+}
+
+ul li a {
+    display: block;
+    padding: 1em;
+    text-decoration: none;
+    white-space: nowrap;
+    color: White;
+}
+
+    ul li a:hover {
+        background: #e67300;
+    }
+
+
+li:hover > ul {
+    display: inline;
+    position: absolute;
+}
+
+
+li:hover li {
+    float: none;
+}
+
+li:hover a {
+    background: #e67300;
+}
+/*jis list par hover hua wa hai us ka anchor*/
+
+li:hover li a:hover {
+    background: #4d0000;
+}
+/*jis list par hover hua wa hai us ki list k anchor par jab hover ho*/
+
+
+ul ul ul {
+    left: 100%;
+    top: 0;
+}
+
+/*mediaquery*/
+
+/* Tablets  */
+@media only screen and (min-width: 768px) and (max-width:1024px) {
+    body {
+        background-color: pink;
+    }
+
+    .main-head {
+        margin: auto;
+        max-width: 1500px;
+        min-height: 90px;
+        padding: 1em 2em;
+        border-bottom: 5px solid orange;
+        border-radius: 0 0 5px 5px;
+        background: white;
+        z-index: 100;
+    }
+}
+
+

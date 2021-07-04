@@ -1,0 +1,10 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(sforsoncasualheavy.ttf);
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('http://treehouse-code-samples.s3.amazonaws.com/CSS-DD/codepen/stage-13/fonts/icomoon.eot');
+    src: url('http://treehouse-code-samples.s3.amazonaws.com/CSS-DD/codepen/stage-13/fonts/icomoon.eot?#iefix') format('embedded-opentype'), url('http://treehouse-code-samples.s3.amazonaws.com/CSS-DD/codepen/stage-13/fonts/icomoon.woff') format('woff'), url('http://treehouse-code-samples.s3.amazonaws.com/CSS-DD/codepen/stage-13/fonts/icomoon.ttf') format('truetype'), url('http://treehouse-code-samples.s3.amazonaws.com/CSS-DD/codepen/stage-13/fonts/icomoon.svg#icomoon') format('svg');
+}

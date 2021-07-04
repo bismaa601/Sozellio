@@ -1,0 +1,56 @@
+/*who view are*/
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(Fonts/sforsoncasualheavy.ttf);
+}
+
+.who {
+    vertical-align: left;
+    padding: 20px 0px 0px 50px;
+    border-right:8px solid black;
+
+    margin-top: 20px;
+    position: relative;
+    width: 75%;
+    /*border:5px solid orange;*/
+    height: 220px;
+}
+
+.fontsss {
+    white-space: normal;
+    float: none;
+    padding: 15px;
+    border: 0;
+    text-align: justify;
+    margin: 0px;
+    text-align: left;
+    font-size: 20px;
+}
+
+
+.fonts {
+    /*white-space: normal;*/
+    /*float: none;*/
+    padding: 10px;
+ 
+    margin: -50px;
+    /*background-color: #faa732;*/
+    font-family: myFirstFont;
+    /*border: 0;*/
+    text-align: center;
+    font-size: 80px;
+}
+
+.fontss {
+    float: none;
+    padding: 10px;
+   
+    margin: 0px;
+    font-family: myFirstFont;
+    border: 0;
+    text-align: left;
+    font-size: 40px;
+}
+
+/*who we are*/

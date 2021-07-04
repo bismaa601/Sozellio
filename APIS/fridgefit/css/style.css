@@ -1,0 +1,252 @@
+/* colors green rgb(94, 131, 35) 
+          orange rgb(238, 150, 33) */
+/* font-family: 'Montserrat', sans-serif;
+   font-family: 'Raleway', sans-serif;
+   font-family: "abolition", Arial, Helvetica, sans-serif;
+   font-family: "flamenco", Arial, Helvetica, sans-serif;  */
+
+
+@font-face {
+    font-family: "flamenco";
+    src: url("fonts/Flamenco-Regular.ttf");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "abolition";
+    src: url("fonts/Fort Foundry - Abolition_0.otf");
+    font-weight: normal;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;  
+}
+
+input[type=search]:not(.browser-default):focus:not([readonly]) {
+    border-bottom: 1px solid rgb(238, 150, 33);
+    box-shadow: 0 1px 0 0 rgb(238, 150, 33);
+}
+
+input[type=number]:not(.browser-default):focus:not([readonly]) {
+    border-bottom: 1px solid rgb(238, 150, 33);
+    box-shadow: 0 1px 0 0 rgb(238, 150, 33);
+}
+
+.panel-title {
+    color: #696767;
+}
+
+#enterZipSpan {
+    color: #696767;
+    font-family: 'Raleway', sans-serif; 
+
+}
+
+.tmSymbol {
+    font-family: 'Arial', sans-serif;
+    font-size: 10pt;
+
+}
+
+.topPic {
+    width: 100%;
+    height: 50px;
+    box-shadow: 0px 20px rgb(94, 131, 35);
+}
+
+.bottomPic {
+    width: 100%;
+    height: 40px;
+    box-shadow: 0px -5px rgb(94, 131, 35);
+}
+
+#howto {
+    margin-left: 25px;
+}
+
+.bottomPicCont {
+    height: 65px;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+.topPicCont {
+    height: 55px;
+}
+
+.header01 {
+    font-family: 'Raleway', sans-serif;
+}
+
+#topRow {
+    margin-bottom: 30px;
+}
+
+#mainContainer {
+    margin-bottom: 50px;
+} 
+
+.logoImg {
+    width: 185px;
+    height: auto;
+    padding: 3px 0 0 0;
+ 
+}
+
+.recipeButton {
+    margin: 0 0 0 5px;
+}
+
+nav {
+    height: 115px;
+}
+
+h4 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 11pt;
+    color: #696767;
+    line-height: 1.5;
+}
+
+p {
+    color: #696767; 
+}
+
+h1, h3 {
+    font-family: "flamenco", Arial, Helvetica, sans-serif; 
+    color: rgb(94, 131, 35);
+}
+
+
+h5 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 10pt;
+    letter-spacing: 1px;
+    float: right;
+    padding: 0 12px 0 0;
+    color: #696767;
+}
+
+.recipeButton {
+    margin: 0 0 0 5px;
+}
+
+.navColor {
+    width: 100%;
+    height: 5px; 
+    margin: 63px 0 0 0;
+    background: rgb(238, 150, 33);
+    box-shadow: 0px 2px rgb(94, 131, 35);
+}
+
+.navbar-brand {
+   width: 100%;
+}
+
+#logo {
+    margin: auto;
+}
+
+.panel, .panel-default {
+   padding: 5px 0px 10px 0px;
+   border: none;
+   padding: 0 0px 0 0px;
+}
+
+.footerBar {
+    width: 100%;
+    height: 50px
+}
+
+.btn, .btn-primary {
+   background-color: rgb(94, 131, 35);
+   font-size: 9pt;
+   color: #DCE7D8;
+   font-weight: bold;
+}
+
+.btn:hover, .btn-primary:hover .btn-sm:hover {
+    background-color: rgb(238, 150, 33);
+}
+
+.btn:focus, .btn-primary:focus, .btn-sm:focus {
+    background-color: #DCE7D8;
+}
+
+.btnSpace {
+    margin: 0 0 0 5px;
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+}
+
+.currentIngredient {
+    font-size: 24px;
+    color: rgb(94, 131, 35);
+    font-family: "flamenco", Arial, Helvetica, sans-serif;
+}
+
+ .recipe {
+    height: 425px;
+} 
+
+.recipeName {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 30px;
+    font-family: "flamenco", Arial, Helvetica, sans-serif; 
+    color: rgb(94, 131, 35);
+    font-size: 24px;
+}
+
+.recipeBtn {
+    margin-right: 3px;
+}
+
+#ingredientsSearchBtn {
+    margin-top: 5px;
+}
+
+.zipbutton {
+    margin-top: 5px;
+}
+
+.ingredientListBtn {
+    margin-left: 5px;
+    background-color: rgb(94, 131, 35);
+    color: #DCE7D8;
+    height: 30px;
+    border-radius: 5px;
+    border-style: none;
+    margin-bottom: 5px;
+}
+
+.modalStyle {
+    height: 245px;
+}
+
+.modal {
+    height: 300px;
+}
+
+.modalHeader {
+    margin-bottom: 15px;
+}
+
+.modalBody {
+    font-size: 25px;
+}
+
+#output {
+    font-family: 'Raleway', sans-serif;
+    color: #696767;
+}
+
+.recipeDisplayBckGround {
+    width: 100%;
+}
+

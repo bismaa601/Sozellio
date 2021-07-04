@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dining In</title>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="assets/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="assets/js/materialize.min.js"></script>
+
+    <!-- Spinner Script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/spin.js/2.3.2/spin.min.js"></script>
+
+    <!-- Linking Styling Sheet -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!-- Firebase Reference -->
+    <script src="https://www.gstatic.com/firebasejs/4.13.0/firebase.js"></script>
+
+    <!-- Link Design Materialize Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Linking Favicon -->
+    <link rel="shortcut icon" type="image/png" href="assets/images/nutrition-favicon.png" />
+
+
+</head>
+
+<body>
+
+    <!-- Navbar goes here -->
+    <div class="col s12">
+        <nav>
+            <div class="nav-wrapper #006064 cyan darken-4">
+                    <img class="brand-logo left"src="assets/images/logo.jpg" 
+                    alt="logo" >
+                <a href="index.html" class="brand-logo center">Dine or Dash</a>
+                <ul id="nav-mobile" class="right">
+                    <li>
+                        <a href="dine.html">
+                            <i class="material-icons">restaurant</i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="dash.html">
+                            <i class="material-icons">time_to_leave</i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Page Layout here -->
+    <div class="row row-information">
+        <div class="col s12 m5 l4">
+            <div class="card blue-grey darken-1" id="recipeFinder">
+                <div class="card-image">
+                    <img id="sidebarImage" src="assets/images/sidebar-image.jpg">
+                    <span class="card-title">Get Recipes!</span>
+                </div>
+                <div class="card-content white-text">
+                    <p>Start adding your information to get started!</p>
+                    <div class="row row-input">
+                        <div class="input-field col s6">
+                            <input placeholder="Ingredient (Required)" id="ingredient-input" type="text" class="validate">
+                        </div>
+                    </div>
+                    <div class="input-field col s12">
+                        <select class="diet-restrictions">
+                            <option value="0" selected="selected">Choose an option</option>
+                            <option value="1">Balanced</option>
+                            <option value="2">High-Protein</option>
+                            <option value="3">High-Fiber</option>
+                            <option value="4">Low-Fat</option>
+                            <option value="5">Low-Carb</option>
+                            <option value="6">Low-Sodium</option>
+
+                        </select>
+                        <label>Diet Specifications</label>
+                    </div>
+                    <div class="input-field col s12">
+                        <select class="health-restrictions">
+                            <option value="0" selected="selected">Choose an option</option>
+                            <option value="1">Peanut-Free</option>
+                            <option value="2">Tree-Nut-Free</option>
+                            <option value="3">Soy-Free</option>
+                            <option value="4">Fish-Free</option>
+                            <option value="5">Shellfish-Free</option>
+                            <option value="6">Vegetarian</option>
+                            <option value="7">Vegan</option>
+                        </select>
+                        <label>Health Specifications</label>
+                    </div>
+
+                    <button type="submit" class="waves-effect waves-light btn btn-search">Search</button>
+                    <button type="submit" class="waves-effect waves-light btn btn-clear">Clear</button>
+                    <div class="loadSpinner"></div>
+
+
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="recipeCard col s12 m7 l8 center-align">
+            <div class="recipes">
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="page-footer #00838f cyan darken-3" id="dine-footer">
+        <div class="footer-copyright #006064 cyan darken-4">
+            <div class="container">
+                <time>&copy; 2018 </time>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Linking Javascript -->
+    <script src="assets/javascript/script.js"></script>
+
+    <script src="assets/javascript/ingredientSearch.js"></script>
+    <script src="assets/javascript/restaurantSearch.js"></script>
+
+    <!-- <script src="assets/javascript/materialize.min.js"></script> -->
+
+</body>
+
+</html>

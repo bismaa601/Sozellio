@@ -1,0 +1,504 @@
+<html>
+<head>
+    <title>
+
+    </title>
+
+    <link rel="stylesheet" href="../../../../css/navigation.css">
+    <link rel="stylesheet" href="../../../../css/tooltip.css">
+    <link rel="stylesheet" href="../../../../css/videos.css">
+    <link rel="stylesheet" href="../../../../css/social-media-icons.css">
+    <link rel="stylesheet" href="../../../../css/footer.css">
+    <link rel="stylesheet" href="../../../../css/container.css">
+    <link rel="stylesheet" href="../../../../css/tooltip.css">
+    <link rel="stylesheet" href="../../../../css/typenames.css">
+    <link rel="stylesheet" href="../../../../css/vertical-lines.css">
+    <link rel="stylesheet" href="../../../../css/icons.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <!--social media icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <style>
+        .datalist {
+            padding: 12.5px;
+        }
+
+        .image-background-div {
+            width: 200px;
+            height: 200px;
+            margin-bottom: 0.2em;
+            background-color: orange;
+            border-radius: 10px;
+        }
+
+        div.card-body {
+            width: 220px;
+            float: left;
+            /*padding-top:5px;*/
+            margin-top: 5px;
+            margin-right: -15px;
+            margin-bottom: 15px;
+        }
+
+            div.card-body a {
+                color: white;
+                text-decoration: none;
+                text-align: center;
+            }
+
+        .image-div {
+            width: 200px;
+            height: 200px;
+            margin-bottom: 0.2em;
+            padding: 10px;
+        }
+
+            .image-div:hover {
+                transform: scale(1.05);
+            }
+
+
+        div.card {
+            width: 220px;
+            float: left;
+            margin-right: -15px;
+            margin-bottom: 20px;
+        }
+
+            div.card a {
+                color: white;
+                text-decoration: none;
+                text-align: center;
+            }
+
+        .title-of-khana {
+            width: 200px;
+            height: 50px;
+            color: white;
+            padding: 15px 5px 5px 5px;
+            background-color: orange;
+            text-decoration: none;
+            top: 20px;
+            margin-top: 03px;
+            text-align: center;
+            border-radius: 10px;
+        }
+        /*.image-background:hover img {
+        transform: scale(1.05);
+        }*/
+
+        .temperory {
+            position: relative;
+            background-color: orange;
+            width: 300px;
+            margin-right: 35px;
+            margin-top: -190px;
+            margin-bottom: 0px;
+            /*height: wrap;*/
+            float: right;
+            overflow: hidden;
+            z-index: 0;
+            border-radius: 10px;
+        }
+        .image1 {
+            width: 200px;
+            height: 200px;
+            margin-bottom: 0.2em;
+            padding: 10px;
+        }
+
+        .image-background {
+            width: 200px;
+            height: 200px;
+            margin-bottom: 0.2em;
+            background-color: orange;
+            border-radius: 10px;
+        }
+
+        .vertical-Line-left {
+            position: relative;
+            border-left: 5px solid orange;
+            margin-left: 305px;
+            height: 1087px;
+            margin-top: -200px;
+            /*top: -175px;*/
+            width: 0px;
+        }
+
+
+
+        .card-footer {
+            width: auto;
+            border-style: solid;
+            border-color: red;
+            float: left;
+            background-color: white;
+            margin: 30px 30px 30px 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- nav -->
+    <!-- nav -->
+    <div id=" main" style="background-color:black;">
+        <div>
+            <header class="main-head" style="background-color:black;">
+                <a href="../../../../home/home.html" class="logo">Sozellio</a>
+                <!--<h4 class="logo">Sozellio </h4>-->
+                <!--<h3 class="tagline">Cook Yourself!</h3>-->
+
+
+                <ul class="main-nav">
+                    <!--<li><a href="#" class="material-icons" src="breakfast_types/Parathas/parathas-body.html">person </a></li>-->
+                    <li class="tooltip">
+                        <!--<a href="#" class="material-icons" src="breakfast_types/Parathas/parathas-body.html">person </a>-->
+                        <a href="#" class="material-icons" src="parathas-body.html">person </a>
+                        <span class="tooltiptext">
+                            Sign In
+                        </span>
+                    </li>
+                    <li class="datalist">
+                        <form action="/action_page.php">
+                            <input list="reciepies" placeholder="Search">
+                            <datalist id="reciepies">
+                                <option value="Chicken Karahi">
+                                <option value="Supreme Pizza">
+                                <option value="Italian Pasta">
+                                <option value="Cherry and Chocolate Dessert Pot">
+                                <option value="Thai Red Chicken">
+                                <option value="Hyderabadi Chicken Biryani">
+                                <option value="Suji ka Halwa">
+                                <option value="Vegan Spicy Peanut Noodles">
+                                <option value="Fajita Chicken Salad">
+                                <option value="Italian Sausage Lasagna">
+                                <option value="Desi Chicken Sizzler">
+
+                            </datalist>
+                            <!--<input type="Submit" value="Search" placeholder="Search">-->
+                        </form>
+                    </li>
+
+
+
+                    <!--<li><a href="#">Sign In</a></li>-->
+
+
+
+
+                    <li class="dropdown">
+                        <a href="#">Meal Preference</a>
+
+
+
+                        <ul class="drop-nav">
+                            <li>
+                                <a href="../parathas/nav-click-paratha.html">Breakfast</a>
+
+                                <ul class="subdropdown">
+                                    <li><a href="../parathas/nav-click-paratha.html">Parathas</a></li>
+                                    <li><a href="../sandwiches/nav-click-sandwiches.html">Sandwiches</a></li>
+                                    <li><a href="../eggs/nav-click-eggs.html">Eggs </a></li>
+                                    <li><a href="../oatmeal/nav-click-Oatmeal">Oatmeal</a></li>
+                                    <li><a href="../tea/nav-click-Tea">Tea </a></li>
+                                    <li><a href="../halwa puri/nav-click-Halwa Puri.html">Halwa Puri</a></li>
+                                </ul>
+
+
+
+
+                            <li>
+                                <a href="../../../../meal-preference\lunch/lunch_types/bbq/nav-click-bbq.html">Lunch</a>
+                                <ul class="subdropdown">
+                                    <li><a href="../../../../meal-preference\lunch/lunch_types/bbq/nav-click-bbq.html">BBQ</a></li>
+                                    <li><a href="../../../../meal-preference\lunch/lunch_types/burger/nav-click-burger.html">Burger</a></li>
+                                    <li><a href="../../../../meal-preference\lunch/lunch_types/chinese/nav-click-Chinese.html">Chinese</a></li>
+                                    <li><a href="../../../../meal-preference\lunch/lunch_types/continental/nav-click-continental.html">Continental</a></li>
+                                    <li><a href="../../../../meal-preference\lunch/lunch_types/pizza/nav-click-pizza.html">Pizza</a></li>
+                                </ul>
+
+
+
+                            <li>
+                                <a href="../../../../meal-preference\dinner\dinner_types\pasta/nav-click-pasta.html">Dinner</a>
+                                <ul class="subdropdown">
+                                    <li><a href="../../../../meal-preference\dinner\dinner_types\pasta/nav-click-pasta.html">Pasta</a></li>
+                                    <li><a href="../../../../meal-preference\dinner\dinner_types/rice/nav-click-rice.html">Rice</a></li>
+                                    <li><a href="../../../../meal-preference\dinner\dinner_types/salad/nav-click-salad">Salad </a></li>
+                                    <li><a href="../../../../meal-preference\dinner\dinner_types/seafood/nav-click-seafood.html">Seafood</a></li>
+                                    <li><a href="../../../../meal-preference\dinner\dinner_types/thai/nav-click-thai.html">Thai </a></li>
+
+                                </ul>
+
+
+                        </ul>
+
+                    <li><a href="../../../../home/home.html">Home</a></li>
+
+                </ul>
+        </div>
+
+        <!--Nav end-->
+        <!-- container -->
+        <div class="container">
+
+
+            <iframe class="iframe-body" name="main-body" scrolling="no"
+                    style="height:1200px;
+                           width:850px;
+                           position:relative;
+                           margin-left:108px;
+                           overflow:hidden;
+                           margin-bottom:0px;
+                           border: 0px none;
+                           z-index:6;
+                           "></iframe>
+
+            <div class="types">
+
+                <a href="parathas-body.html" class="type-names" target="main-body">Parathas </a>
+                <a href="Sandwiches-body.html" class="type-names" target="main-body">Sandwiches </a>
+                <a href="Eggs-body.html" class="type-names" target="main-body">Eggs </a>
+                <a href="Oatmeal-body.html" class="type-names" target="main-body">Oatmeal </a>
+                <a href="Tea-body.html" class="type-names" target="main-body">Tea</a>
+                <a href="Halwa Puri-body.html" class="type-names" target="main-body">Halwa Pori</a>
+
+
+                <div class="temperory">
+                    <h3 class="video-div-text">Your Favourites</h3>
+                    <video controls autoplay loop muted class="videos">
+                        <source src="../../../../videos/left-favourites/tawa-chicken.mp4" type="video/mp4">
+                    </video>
+                    <!--<img   width="200" height="200" src="rice.png">-->
+                    <video controls autoplay loop muted class="videos">
+                        <source src="../../../../videos/left-favourites/Kaleji.mp4" type="video/mp4">
+                    </video>
+                    <video controls autoplay loop muted class="videos">
+                        <source src="../../../../videos/left-favourites/maza.mp4" type="video/mp4">
+                    </video>
+                    <video controls autoplay loop muted class="videos">
+                        <source src="../../../../videos/left-favourites/parathas.mp4" type="video/mp4">
+                    </video>
+                    <video controls autoplay loop muted class="videos">
+                        <source src="../../../../videos/left-favourites/Chicken-wings.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="vertical-Line-left"></div>
+
+                <div style="height: 1100px;
+                            margin-top:-1085px;
+                            width:1000px;
+                            position:relative;
+                            margin-left:317px;
+                            overflow:hidden;
+                            margin-bottom:0px;
+                            z-index:5">
+
+
+
+
+
+                    <div class="card-body">
+                        <div class="image-background-div">
+                            <img src="images/bedmipoori.jpg" class="image-div">
+                        </div>
+                        <div class="title-of-khana">
+                            <a href="">Bedmi Puri</a>
+                        </div>
+                    </div>
+
+                    <div class="card-body">
+                        <div class="image-background-div">
+                            <img src="images/channadaalhalwapoori.jpg" class="image-div">
+                        </div>
+                        <div class="title-of-khana">
+                            <a href="">Channa Daal Halwa Puri</a>
+                        </div>
+                    </div>
+
+                    <div class="card-body">
+                        <div class="image-background-div">
+                            <img src="images/channaybhajjipoori.jpg" class="image-div">
+                        </div>
+                        <div class="title-of-khana">
+                            <a href="">Channay Bhajji Puri</a>
+                        </div>
+                    </div>
+
+                    <div class="card-body">
+                        <div class="image-background-div-div">
+                            <img src="images/choleybhaturay.jpg" class="image-div">
+                        </div>
+                        <div class="title-of-khana">
+                            <a href="">Choley Bhaturay</a>
+                        </div>
+                    </div>
+
+                    <div class="card-body">
+                        <div class="image-background-div">
+                            <img src="images/coconuthalwapoori.jpg" class="image-div">
+                        </div>
+                        <div class="title-of-khana">
+                            <a href="">Coconut Halwa Puri</a>
+                        </div>
+                    </div>
+
+                    <div class="card-body">
+                        <div class="image-background-div">
+                            <img src="images/halwastuffedpoori.jpg" class="image-div">
+                        </div>
+                        <div class="title-of-khana">
+                            <a href="">Halwa Stuffed Puri</a>
+                        </div>
+                    </div>
+
+                    <div class="card-body">
+                        <div class="image-background-div">
+                            <img src="images/kaalachanapoori.jpg" class="image-div">
+                        </div>
+                        <div class="title-of-khana">
+                            <a href="">Kaala Chana Puri</a>
+                        </div>
+                    </div>
+
+                    <div class="card-body">
+                        <div class="image-background-div">
+                            <img src="images/masalapoori.jpg" class="image-div">
+                        </div>
+                        <div class="title-of-khana">
+                            <a href="">Masala Puri</a>
+                        </div>
+                    </div>
+
+                    <div class="card-body">
+                        <div class="image-background-div">
+                            <img src="images/shahihalwapoori.jpg" class="image-div">
+                        </div>
+                        <div class="title-of-khana">
+                            <a href="">Shahi Halwa Puri</a>
+                        </div>
+                    </div>
+
+                    <div class="card-body">
+                        <div class="image-background-div">
+                            <img src="images/shirapoori.jpg" class="image-div">
+                        </div>
+                        <div class="title-of-khana">
+                            <a href="">Shira Puri</a>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+
+
+
+            </div>
+
+
+        </div>
+        <!--<div class="vertical-Line-left"></div>-->
+        <!--<div name="pta-nahi">
+        <frameset>
+            <frame name="recepies">
+        </frameset>-->
+        <!--<div class="card , zoom">
+            <div class="header">
+                <img src="rice.jpg">
+            </div>
+
+            <div class="container">
+                <a href=""><h3>Chicken Karahi</h3></a>
+            </div>
+        </div>-->
+
+
+
+
+
+
+        <div class="footer_subbody "
+             style="height:600px;
+                    /*background-color:black;*/
+                    border: 05px solid orange;
+                    border-radius: 10px;
+                    margin-left: 40px;
+                    margin-right: 35px;
+                    margin-bottom:30px;
+                    margin-top:20px;
+                    ">
+            <div class=" cards-placement">
+                <div class="card-footer">
+                    <img src="..\..\..\../footer\images\mcdonalds.jpg" class="poster"
+                         style="height:350px;
+                        width:350px">
+                    <div class="details">
+
+                    </div>
+                </div>
+
+                <div class="card-footer">
+                    <img src="..\..\..\../footer\images\howdy.jpg" class="poster" style="height:350px;
+                        width:350px">
+                    <div class="details">
+                        <!--<div class="info">
+                            <h3>Address  </h3> <br>
+                        </div>-->
+                    </div>
+                </div>
+
+                <div class="card-footer">
+                    <img src="..\..\..\../footer\images\kfc.jpg" class="poster" style="height:350px;
+                        width:350px">
+                    <div class="details">
+
+                    </div>
+                </div>
+
+                <h3> </h3>
+            </div>
+            <!--<div class="card">
+                <img src="4.jpg" class="poster">
+                <div class="details">
+                    <div class="info">
+                        <h3> 8/10  </h3> <br>
+                        <h2>Crime</h2> <br>
+                        <h2>Thriller</h2>
+
+                    </div>
+                </div>
+            </div>-->
+
+            <div class="socialmedia-icons">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-youtube"></a>
+                <a href="#" class="fa fa-instagram"></a>
+
+            </div>
+
+            <address class="contact">
+                <br><br><br>
+                Contact us: <a href="mailto:qain.bscs17seecs@seecs.edu.pk" style="color:white;">AJEEB</a>.<br>
+
+            </address>
+            <!--<div style="height:30px; background-color:black; width:100%;"> </div>-->
+
+        </div>
+
+
+
+    </div>
+
+
+    <!--<script>
+        alert("Sign In in order to get recommendation about your food or restauraunt.");
+    </script>-->
+
+</body>
+</html>

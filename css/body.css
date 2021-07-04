@@ -1,0 +1,136 @@
+/*body*/
+@font-face {
+    font-family: myFirstFont;
+    src: url(sforsoncasualheavy.ttf);
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('http://treehouse-code-samples.s3.amazonaws.com/CSS-DD/codepen/stage-13/fonts/icomoon.eot');
+    src: url('http://treehouse-code-samples.s3.amazonaws.com/CSS-DD/codepen/stage-13/fonts/icomoon.eot?#iefix') format('embedded-opentype'), url('http://treehouse-code-samples.s3.amazonaws.com/CSS-DD/codepen/stage-13/fonts/icomoon.woff') format('woff'), url('http://treehouse-code-samples.s3.amazonaws.com/CSS-DD/codepen/stage-13/fonts/icomoon.ttf') format('truetype'), url('http://treehouse-code-samples.s3.amazonaws.com/CSS-DD/codepen/stage-13/fonts/icomoon.svg#icomoon') format('svg');
+}
+
+.main-body-home {
+    height: 970px;
+    width: 75%;
+    padding: 10px;
+    padding-bottom:0px;
+  
+    border-right: 8px solid black;
+    
+    /*border:5px solid black;*/
+}
+
+div.card {
+    width: 210px;
+    height: 255px;
+    box-shadow: 12px 12px 8px rgba(0, 0, 0, 0.7), -2px 0px 20px rgba(0, 0, 0, 0.6);
+    /*text-align: center;*/
+    float: left;
+    margin-right: 0px;
+    margin-left:60px;
+    margin-top:30px;
+    margin-bottom:20px;
+    border-radius:10px;
+}
+
+div.header {
+    background-color: orange;
+    width: 200px;
+    height: 190px;
+    color: white;
+    padding: -5px;
+    margin: -45px;
+    border-radius:10px;
+}
+
+.text {
+    margin-top: 50px;
+    padding-top: 15px;
+    background-color: orange;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    margin-left: -45px;
+   text-align:center;
+}
+
+.text  a {
+    /*padding: 20px;*/
+    text-decoration:none;
+ font-size:small;
+ color:white;
+ 
+ /*width:180px;*/
+
+}
+
+
+.zoom {
+    padding: 50px;
+    background-color: white;
+    transition: transform .2s;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.zoom:hover {
+        -ms-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+       
+    }
+.card:hover {
+    background-color: black;
+}
+
+.image-bisma {
+    height: 190px;
+    width: 200px;
+    padding: 10px;
+}
+
+/* Mobiles in portrait mode*/
+@media only screen and (max-width: 320px) {
+    body {
+        background-color: white;
+        
+    }
+}
+
+
+
+
+/* Tablets  */
+@media only screen and (min-width: 768px)
+and (max-width:1024px){
+  body {
+    background-color: pink;
+    
+  }
+    .main-head {
+        width: 100%;
+    }
+}
+
+/*/* Desktops and laptop computers  
+@media only screen and (min-width: 1224px)
+{
+  body {
+    background-color: Blue;
+  }
+    
+}*/
+
+
+/*/* Very Large Screen Devices
+@media only screen and (min-width: 1824px)
+{
+  body {
+    background-color: white;
+    
+  }
+}*/
+
+/*body*/

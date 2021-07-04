@@ -1,0 +1,197 @@
+body {
+	background: url("../images/background.jpg");
+    background-size: cover;
+    background-repeat: repeat;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    height: 100%
+}
+.brand-logo  {
+    height: 50px;
+    margin: 10px;
+    
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.input-field.col.s6 {
+    width: 100%;
+}
+
+.material-icons {
+    color: #fff !important;
+}
+
+.brand-logo {
+    color: #fff !important; 
+}
+
+.card {
+    display: inline-block;
+}
+
+.card-title {
+    background-color:#cb202d;
+    padding: 5px !important;
+}
+
+.recipes {
+    columns: 3;
+}
+
+@media only screen and (max-width: 1024px) {
+    .recipes {
+        columns: 2;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .recipes {
+        columns: 1;
+    }
+}
+
+.row-input {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+#recipeBtn {
+    color: #fff;
+}
+
+.row-information {
+    float: left;
+}
+
+a:link, a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+#Rlink {
+    color:#cb202d;
+}
+
+a:hover {
+    color: #D94148;
+}
+
+input, .input {
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-right: 5px;
+    padding: 12px 10px;
+    width: 160px;
+}
+
+.api-call, #resetButton {
+    background-color: #cb202d;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    outline: none;
+    padding: 10px 10px;
+    width: 100px;
+}
+
+.api-call:hover, #resetButton:hover {
+    background:#D94148;
+}
+
+.api-call:active, #resetButton:active {
+    transform: translateY(4px);
+}
+
+.buttons {
+    background-color: #cb202d;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    outline: none;
+    padding: 4px;
+    width: 280px;
+}
+
+.buttons:hover {
+    background:#D94148;
+}
+
+.buttons:active {
+    transform: translateY(4px);
+}
+
+.formWrapper {
+    background-color: #cb202d;
+    border-radius: 5px;
+    margin: 10px auto;
+    padding: 10px 25px;
+    width: 80%;
+    height: auto;
+   
+}
+
+.formWrapper span {
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    padding-right: 20px;
+    
+}
+
+.resultsWrapper {
+    /* background-color: #cb202d;
+    border-radius: 5px; */
+    margin: 0 auto;
+    padding: 10px 25px;
+    width: 100%;
+    height: auto;
+}
+
+.venues {
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.venueName {
+    color: #cb202d;
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.venueCity {
+    font-weight: bold;
+}
+
+.wrapper {
+    margin: 25px 25px;
+    min-height: 73vh;
+}
+
+#cuisine-input {
+    display: none;
+}
+
+ul {
+    display: inline-block;
+}
+
+#dash-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

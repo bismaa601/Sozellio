@@ -1,0 +1,18 @@
+.vertical-Line-left {
+        position: relative;
+        border-left: 5px solid orange;
+        margin-left: 345px;
+        height: 1087px;
+        margin-top: -200px;
+        /*top: -175px;*/
+        width: 0px;
+    }
+
+/*.vertical-Line-right {
+        position: relative;
+        border-right: 5px solid orange;
+        margin-right: 350px;
+        height: 100%;
+        top: -175px;
+        width: 0px;
+    }*/

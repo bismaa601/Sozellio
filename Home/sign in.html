@@ -1,0 +1,146 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Welcome | Sign-In Form</title>
+<link href='http://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
+<style type="text/css">
+body{
+	 background-image: url("https://i.pinimg.com/originals/d3/6d/46/d36d462db827833805497d9ea78a1343.jpg");
+	 background-repeat: no-repeat;
+     background-size: cover;
+}
+.form{
+	max-width:550px;
+	padding:30px;
+	margin:40px auto;
+	background: #e5e5e5;
+	border-radius: 12px;
+}
+.form .inner-wrap{
+	padding: 30px;
+	background: #F8F8F8;
+	border-radius: 6px;
+	margin-bottom: 15px;
+}
+.form h1{
+	background: #59648e;
+	padding: 20px 30px 15px 30px;
+	margin: -30px -30px 30px -30px;
+	border-radius: 10px 10px 0 0;
+	color: #fff;
+	text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.12);
+	font: normal 35px 'Bitter', serif;
+	box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+	border: none;
+}
+.form h1 > span{
+	display: block;
+	margin-top: 5px;
+	font: 14px Arial, Helvetica, sans-serif;
+}
+.form label{
+	display: block;
+	font: 14px Arial, Helvetica, sans-serif;
+	color: #4D4D4D;
+	margin-bottom: 15px;
+}
+.form input[type="text"],
+.form input[type="date"],
+.form input[type="datetime"],
+.form input[type="email"],
+.form input[type="number"],
+.form input[type="search"],
+.form input[type="time"],
+.form input[type="url"],
+.form input[type="password"],
+.form textarea,
+.form select {
+	display: block;
+	box-sizing: border-box;
+	width: 100%;
+	padding: 10px;
+	border-radius: 6px;
+	border: 1px solid #8888;
+	box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.33);
+}
+
+.form .section{
+	font: normal 20px 'Bitter', serif;
+	color: #59648e;
+	margin-bottom: 5px;
+}
+.form .section span {
+	background: #93495e;
+	padding: 5px 10px 5px 10px;
+	position: absolute;
+	border-radius: 50%;
+	border: 4px solid #fff;
+	font-size: 14px;
+	margin-left: -45px;
+	color: #fff;
+	margin-top: -3px;
+}
+.form input[type="button"], 
+.form input[type="submit"]{
+	background: #93495e;
+	padding: 8px 20px 8px 20px;
+	border-radius: 5px;
+	color: #fff;
+	text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.12);
+	font: normal 30px 'Bitter', serif;
+	box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+	border: none;
+	font-size: 20px;
+}
+.form input[type="button"]:hover, 
+.form input[type="submit"]:hover{
+	background: #59648e;
+	box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.28);
+}
+
+
+</style>
+</head>
+
+<body>
+
+<div class="form">
+<h1>Sign Up Now!<span>Sign up and tell us what you think of the site!</span></h1>
+<form action="form.php" method="get">
+    <div class="section"><span>1</span>First Name &amp; Email</div>
+    <div class="inner-wrap">
+        <label>Your Full Name <input type="text" name="name" /></label>
+       <label>Email Address <input type="email" name="email" /></label>
+    </div>
+
+
+    <div class="section"><span>2</span>Passwords</div>
+    <div class="inner-wrap">
+        <label>Password <input type="password" name="field5" /></label>
+        <label>Confirm Password <input type="password" name="field6" /></label>
+    </div>
+
+    <div class="section"><span>3</span>About You</div>
+    <div class="inner-wrap">
+        <label>What type of food eater best describes you?</br></br>
+        <input type="checkbox" name="field7" checked="checked" />Omnivore
+        <input type="checkbox" name="field8" />Vegetarian
+        <input type="checkbox" name="field9" />Meat &amp; Potatoes
+        <input type="checkbox" name="field10" />Other
+        </label>
+
+        <label>Where do you like to eat?</br></br>
+        <label><textarea name="field2"></textarea></label>
+        </label>
+    </div>
+
+    <div class="button-section">
+     <input type="submit" name="submit" />
+    </div>
+</form>
+</div>
+
+</body>
+</html>
